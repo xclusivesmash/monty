@@ -61,21 +61,21 @@ julien@ubuntu:~/monty$
 
 **The monty program**
 <br>
-    - Usage: `monty file`
+    - Usage: `monty file`<br>
         * where `file` is the path to the file containing Monty byte code
 <br>
     - If the user does not give any file or more than one argument to your program, print the error message `USAGE: monty file`, followed by a new line, and exit with the status `EXIT_FAILURE`
 <br>
-    - If, for any reason, it’s not possible to open the file, print the error message `Error: Can't open file <file>`, followed by a new line, and exit with the status `EXIT_FAILURE`
+    - If, for any reason, it’s not possible to open the file, print the error message `Error: Can't open file <file>`, followed by a new line, and exit with the status `EXIT_FAILURE`<br>
         * where `<file>` is the name of the file
 <br>
-    - If the file contains an invalid instruction, print the error message `L<line_number>: unknown instruction <opcode>`, followed by a new line, and exit with the status `EXIT_FAILURE`
-        * where is the line number where the instruction appears.
+    - If the file contains an invalid instruction, print the error message `L<line_number>: unknown instruction <opcode>`, followed by a new line, and exit with the status `EXIT_FAILURE`<br>
+        * where is the line number where the instruction appears.<br>
         * Line numbers always start at 1
 <br>
-    - The monty program runs the bytecodes line by line and stop if either:
-        * it executed properly every line of the file
-        * it finds an error in the file
+    - The monty program runs the bytecodes line by line and stop if either:<br>
+        * it executed properly every line of the file<br>
+        * it finds an error in the file<br>
         * an error occured
 <br>
     - If you can’t malloc anymore, print the error message `Error: malloc failed`, followed by a new line, and exit with status `EXIT_FAILURE`.
