@@ -60,6 +60,7 @@ julien@ubuntu:~/monty$
 ```
 
 **The monty program**
+<br>
     * Usage: `monty file`
         * where `file` is the path to the file containing Monty byte code
     * If the user does not give any file or more than one argument to your program, print the error message `USAGE: monty file`, followed by a new line, and exit with the status `EXIT_FAILURE`
@@ -74,7 +75,7 @@ julien@ubuntu:~/monty$
         * an error occured
     * If you can’t malloc anymore, print the error message `Error: malloc failed`, followed by a new line, and exit with status `EXIT_FAILURE`.
     * You have to use `malloc` and `free` and are not allowed to use any other function from `man malloc`(realloc, calloc, …)
-
+<br>
 ## Author
 * Siphamandla Matshiane, [![Twitter](http://i.imgur.com/wWzX9uB.png)](https://twitter.com/sbumatshiane916)
 
